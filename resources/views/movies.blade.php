@@ -5,12 +5,9 @@
 <div class="container">
 
    <h2>
-      Home
+      Movies
    </h2>
 
-   <h3>
-      Ciao {{ $name }} {{ $surname }}
-   </h3>
 </div>
 
 @endsection
