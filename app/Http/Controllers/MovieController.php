@@ -10,12 +10,12 @@ use Illuminate\Http\Request;
 
 class MovieController extends Controller
 {
-    public function movies(){
+    public function index(){
 
         $movies = movie::all();
 
-        dump($movies);
+        // dump($movies);
 
-        return view('movies');
+        return view('movies', compact('movies'));
     }
 }

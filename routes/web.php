@@ -19,4 +19,4 @@ Route::get('/about', 'PageController@about')->name('about');
 
 Route::get('/where', 'PageController@where')->name('where');
 
-Route::get('/movies', 'MovieController@movies')->name('movies');
+Route::get('/movies', 'MovieController@index')->name('movies');
